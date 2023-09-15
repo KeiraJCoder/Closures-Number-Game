@@ -1,0 +1,55 @@
+/* Reset some default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Center all content horizontally and vertically */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #8b1e95;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Apply styles to the main content */
+main {
+    padding: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #d11e1e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
