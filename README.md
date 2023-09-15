@@ -16,3 +16,5 @@ Parses the user's input and converts it to an integer.
 Uses the checkGuess closure to check the user's guess against the secret number.
 Displays the result message on the web page.
 Clears the input field.
+
+https://keirajcoder.github.io/Closures-Number-Game/
